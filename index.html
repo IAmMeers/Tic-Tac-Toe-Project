@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="tictactoe.js"></script>
+    <title>Tic Tac Toe Project</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe Game</h1>
+        <div id="game-board" class="center">
+
+            <table>
+                <tr>
+                <td class="col row cell" id="cell-0-0"></td>
+                <td class="col row cell" id="cell-0-1"></td>
+                <td class="row cell" id="cell-0-2"></td>
+                </tr>
+                <tr>
+                <td class="col row cell" id="cell-1-0"></td>
+                <td class="col row cell" id="cell-1-1"></td>
+                <td class="row cell" id="cell-1-2"></td>
+                </tr>
+                <tr>
+                    <td class="col cell" id="cell-2-0"></td>
+                    <td class="col cell" id="cell-2-1"></td>
+                    <td class="cell" id="cell-2-2"></td>
+                </tr>
+            </table>
+            <div id="end-game-container" style="display: none;">
+                <h2 id="end-game-message"></h2>
+                <button id="new-game-button">New Game</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

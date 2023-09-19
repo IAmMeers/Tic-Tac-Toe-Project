@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+th, td {
+    /* border: 2px solid #000000; */
+    width: 75px;
+    height: 75px;
+    
+    /* padding: 30px; */
+    text-align: center;
+}
+
+#game-board{
+    margin-top: 50px;
+    margin: auto;
+}
+
+.center {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+  }
+
+.container {
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+}
+
+.row {
+    border-bottom: 2px solid #000000;
+}
+
+.col {
+    border-right: 2px solid #000000;
+}
