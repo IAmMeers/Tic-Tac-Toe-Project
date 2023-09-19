@@ -36,6 +36,7 @@ const gameBoard = (() => {
       ["", "", ""],
       ["", "", ""],
     ];
+    gameOver = false;
   };
 
   const checkForWin = () => {
@@ -146,5 +147,4 @@ document.getElementById("new-game-button").addEventListener("click", () => {
   gameBoard.resetBoard();
   gameBoard.displayDriver.displayBoard();
   document.getElementById("end-game-container").style.display = "none";
-  gameBoard.gameOver = false;
 });
